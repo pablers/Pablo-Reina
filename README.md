@@ -12,6 +12,6 @@ Descripción del problema enfrentado
 · Problema 1
 · Problema 2
 
-![logo]: https://avatars0.githubusercontent.com/u/15930285?s=460&u=3398c576d1b005b9d9ed83684031e6db582fb4d4&v=4
+![logo]: https://avatars0.githubusercontent.com/u/15930285?s=460&u=3398c576d1b005b9d9ed83684031e6db582fb4d4&v=4 [logo]
 
 ---

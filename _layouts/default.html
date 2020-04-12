@@ -32,11 +32,13 @@
         {% endif %}
 
          {% if site.show_menu %}
-        <ul class="cssmenu">
+        <div id='cssmenu'>
+        <ul>
           <li><a href="{{ site.baseurl }}/portfolio.html "> Portfolio </a></li>
           <li><a href="{{ site.baseurl }}/md-guide.html "> Markdown guide </a></li>
           <li><a href="{{ site.baseurl }}/another-page.html "> Another page </a></li>
         </ul>
+        </div>
         {% endif %}
       </header>
 
@@ -60,7 +62,7 @@
           
         {% if site.github.is_project_page %}
                   <h2>Contacto</h2>
-                      <div align="center" class="socialbtns">
+                      <div align="left" class="socialbtns">
                       <ul>
                       {% comment %} <li><a href="#" class="fa fa-lg fa-facebook"></a></li> {% endcomment %}
                       <li><a href="https://twitter.com/PABL0REINA" class="fa fa-lg fa-twitter"></a></li>

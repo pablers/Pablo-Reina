@@ -393,10 +393,10 @@ a, a:hover {
 // CSS MENU
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:700);
-#cssmenu,
-#cssmenu ul,
-#cssmenu ul li,
-#cssmenu ul li a {
+.cssmenu,
+.cssmenu ul,
+.cssmenu ul li,
+.cssmenu ul li a {
   margin: 0;
   padding: 0;
   border: 0;
@@ -408,14 +408,14 @@ a, a:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-#cssmenu {
+.cssmenu {
   font-family: Roboto, sans-serif;
 }
-#cssmenu > ul {
+.cssmenu > ul {
   width: 180px;
   background: #ffffff;
 }
-#cssmenu > ul > li > a {
+.cssmenu > ul > li > a {
   padding: 12px 15px;
   font-size: 14px;
   color: #666666;
@@ -426,11 +426,11 @@ a, a:hover {
   -ms-transition: color .2s ease;
   transition: color .2s ease;
 }
-#cssmenu > ul > li:hover > a,
-#cssmenu > ul > li > a:hover {
+.cssmenu > ul > li:hover > a,
+.cssmenu > ul > li > a:hover {
   color: #222222;
 }
-#cssmenu ul li.has-sub > a::after {
+.cssmenu ul li.has-sub > a::after {
   position: absolute;
   right: 15px;
   display: block;
@@ -439,23 +439,23 @@ a, a:hover {
   content: "";
   border-radius: 2px;
 }
-#cssmenu > ul > li.has-sub > a::after {
+.cssmenu > ul > li.has-sub > a::after {
   top: 14px;
   background: #666666;
 }
-#cssmenu > ul > li.has-sub:hover > a::after,
-#cssmenu > ul > li.has-sub > a:hover::after {
+.cssmenu > ul > li.has-sub:hover > a::after,
+.cssmenu > ul > li.has-sub > a:hover::after {
   background: #222222;
 }
-#cssmenu ul ul li.has-sub > a::after {
+.cssmenu ul ul li.has-sub > a::after {
   top: 13px;
   background: #ffffff;
 }
-#cssmenu ul ul li.has-sub:hover > a::after,
-#cssmenu ul ul li.has-sub > a:hover::after {
+.cssmenu ul ul li.has-sub:hover > a::after,
+.cssmenu ul ul li.has-sub > a:hover::after {
   background: #dddddd;
 }
-#cssmenu ul li.has-sub > a::before {
+.cssmenu ul li.has-sub > a::before {
   position: absolute;
   right: 15px;
   z-index: 2;
@@ -465,15 +465,15 @@ a, a:hover {
   border: 3px solid transparent;
   content: "";
 }
-#cssmenu > ul > li.has-sub > a::before {
+.cssmenu > ul > li.has-sub > a::before {
   top: 16px;
   border-left-color: #ffffff;
 }
-#cssmenu ul ul li.has-sub > a::before {
+.cssmenu ul ul li.has-sub > a::before {
   top: 15px;
   border-left-color: #2e353b;
 }
-#cssmenu ul {
+.cssmenu ul {
   -webkit-perspective: 600px;
   -moz-perspective: 600px;
   perspective: 600px;
@@ -481,7 +481,7 @@ a, a:hover {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-#cssmenu ul ul {
+.cssmenu ul ul {
   position: absolute;
   top: 0;
   left: -9999px;
@@ -503,12 +503,12 @@ a, a:hover {
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-#cssmenu ul li:hover > ul {
+.cssmenu ul li:hover > ul {
   left: 100%;
   opacity: 1;
   transform: rotate3d(0, 0, 0, 0);
 }
-#cssmenu ul ul::after {
+.cssmenu ul ul::after {
   position: absolute;
   left: -8px;
   top: 14px;
@@ -520,7 +520,7 @@ a, a:hover {
   border-right-color: #2e353b;
   content: "";
 }
-#cssmenu ul ul a {
+.cssmenu ul ul a {
   padding: 12px 15px;
   font-size: 12px;
   color: #ffffff;
@@ -531,7 +531,7 @@ a, a:hover {
   -ms-transition: color .2s ease;
   transition: color .2s ease;
 }
-#cssmenu ul ul li:hover > a,
-#cssmenu ul ul li a:hover {
+.cssmenu ul ul li:hover > a,
+.cssmenu ul ul li a:hover {
   color: #dddddd;
 }

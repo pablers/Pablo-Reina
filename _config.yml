@@ -3,6 +3,6 @@ title: Portfolio
 name: Pablo Reina
 description: Data Scientist and SW Developer
 logo: /assets/img/logo.jpg
-show_downloads: true
+show_downloads: false
 google_analytics: 
 theme: jekyll-theme-minimal

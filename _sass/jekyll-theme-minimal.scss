@@ -147,16 +147,15 @@ ul.downloads {
   font-size:18px;
   //padding: 10px 20px;
   color:#676767;
-  display:inline-block;
+  display:block;
   text-align:center;
-  padding-top:1px;
   height:34px;
 }
 
 
 .downloads a:hover, .downloads a:focus {
   background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
-	padding: 10px 300px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	padding: 0px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
   color:rgb(211, 210, 210);
   font-weight:bold;
 }

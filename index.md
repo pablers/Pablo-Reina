@@ -47,9 +47,11 @@ _existe algun problema con los emojis y github_
 
 > Sun rays do not burn untill brought to a focus.
 
-[logo1](https://github.com/pablers/Pablo-Reina/blob/master/assets/img/log1.jpg)
+<!-- [logo1](https://github.com/pablers/Pablo-Reina/blob/master/assets/img/log1.jpg) -->
 <img src="{{ site.baseurl }}/assets/../../assets/img/logo1.jpg" class="fit image">
 <img src="{{ site.baseurl }}/assets/../../assets/img/dataupd.jpg" class="fit image">
 
+[a relative link](another_page.md) 
+
 # Guía de referencia
-[Markdown guide](./md-guide.html).
+[Markdown guide](./md-guide.md).

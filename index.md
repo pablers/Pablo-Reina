@@ -8,7 +8,8 @@ layout: default
 - [x] **Default layout working**
 - [x] Wrote my first md function
 - [x] Tabla de contenidos añadida
-- [ ] Learn how to configure left side (_In progress_)
+- [x] Learn how to configure left side (_In progress_)
+- [x] CSS, HTML and MD basics!
 - [ ] Design of front page
 - [ ] Section structure
 - [ ] Publish first project

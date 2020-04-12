@@ -146,10 +146,11 @@ ul.downloads {
 .downloads a {
   line-height:1;
   font-size:18px;
+  padding: 10px 20px;
   color:#676767;
   display:block;
   text-align:center;
-  padding-top:12px;
+  padding-top:1px;
   height:34px;
 }
 
@@ -182,7 +183,7 @@ strong {
 }
 
 section {
-  width:800px;
+  width:600px;
   float:right;
   padding-bottom:50px;
 }
@@ -206,7 +207,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 1240px) {
+@media print, screen and (max-width: 960px) {
 
   div.wrapper {
     width:auto;
@@ -280,6 +281,8 @@ footer {
     color:#444;
   }
 }
+
+// SOCIAL MEDIA BUTTONS
 
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 

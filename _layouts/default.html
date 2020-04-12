@@ -15,7 +15,7 @@
     <div class="wrapper">
       <header>
         {% if site.home %}
-        <img src="{{ site.baseurl }}/assets/img/home.png" class="fit image">
+        <a href="{{ site.home | absolute_url}}"> Inicio </a>
         {% endif %}
 
         {% if site.logo %}

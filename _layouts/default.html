@@ -16,9 +16,9 @@
       <header>
         <h1><a href="{{ "/" | absolute_url }}"> Inicio </a></h1>
         
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+        {% comment %} {% if site.logo %} {% endcomment %}
+          ![alt text](assets/img/logo.jpg)
+        {% comment %} {% endif %} {% endcomment %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 

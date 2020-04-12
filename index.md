@@ -25,6 +25,7 @@ layout: default
     - [Probando actualización manual de tabla de contenidos](#probando-actualizaci%c3%b3n-manual-de-tabla-de-contenidos)
     - [Probando emojis](#probando-emojis)
 - [Inspiration quote](#inspiration-quote)
+- [Probando imagenes](#probando-imagenes)
 - [Guía de referencia](#gu%c3%ada-de-referencia)
 
 ### Probando actualización de tabla de contenidos...
@@ -47,8 +48,13 @@ _existe algun problema con los emojis y github_
 
 > Sun rays do not burn untill brought to a focus.
 
+# Probando imagenes
+
 <img src="{{ site.baseurl }}/assets/img/logo1.jpg" class="fit image">
 <img src="{{ site.baseurl }}/assets/img/dataupd.jpg" class="fit image">
+
+![alt text](assets/img/logo1.jpg)
+![alt text](assets/img/dataupd.jpg)
 
 # Guía de referencia
 [Markdown guide](./md-guide.md).

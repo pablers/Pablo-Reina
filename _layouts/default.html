@@ -17,7 +17,9 @@
         <h1><a href="{{ "/" | absolute_url }}"> Inicio </a></h1>
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          {% comment %} <img src="{{site.logo | relative_url}}" alt="Logo" /> {% endcomment %}
+          https://github.com/pablers/Pablo-Reina/blob/master/assets/img/logo.jpg
+          <img src="https://github.com/pablers/Pablo-Reina/blob/master/assets/img/logo.jpg" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>

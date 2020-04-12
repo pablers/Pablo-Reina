@@ -114,6 +114,7 @@ header {
 nav {
   width:600px;
   float:right;
+  position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -153,7 +154,10 @@ ul.downloads {
   height:34px;
 }
 
+
 .downloads a:hover, .downloads a:focus {
+  background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+	padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
   color:#675C5C;
   font-weight:bold;
 }
@@ -238,7 +242,7 @@ footer {
 		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1240px) {
 
   div.wrapper {
     width:auto;

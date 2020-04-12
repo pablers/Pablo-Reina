@@ -330,7 +330,6 @@ footer {
 	-webkit-transition: all ease-out 0.5s;
   -o-transition: all ease-out 0.5s;
   padding: 5px;
-  float: left;
 }
 
 .socialbtns .fa:hover {
@@ -356,7 +355,6 @@ footer {
 	-webkit-transition: all ease-in 0.5s;
   -o-transition: all ease-in 0.5s;
   padding: 5px;
-  float: left;
 }
 
 // CSS MENU
@@ -372,10 +370,11 @@ footer {
   list-style: none;
   line-height: 1;
   display: block;
-  position: relative;
+  position: fixed;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  // float: left
 }
 #cssmenu {
   font-family: Roboto, sans-serif;

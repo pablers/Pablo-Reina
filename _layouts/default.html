@@ -19,8 +19,10 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
+        {% comment %} 
         <h2><p><p>{{ site.name | default: site.github.owner_name }}</p></p></h2>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>{{ site.description | default: site.github.project_tagline }}</p> 
+        {% endcomment %}
 
          {% if site.show_menu %}
         <div id='cssmenu'>
@@ -44,18 +46,6 @@
         </div>
         {% endif %}
       </header>
-
-      {% comment %} <nav>
-        <ul class="downloads">
-              <li><a href="https://twitter.com/PABL0REINA" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-              <li><a href="https://www.linkedin.com/in/pabloreinalopez/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-              <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-            </ul>
-
-      </nav> {% endcomment %}
-
       <section>
 
       {{ content }}
@@ -63,26 +53,23 @@
       </section>
       <footer>
           
-        {% if site.github.is_project_page %}
-                  <h2>Contacto</h2>
-                      <div align="left" class="socialbtns">
-                      <ul>
-                      {% comment %} <li><a href="#" class="fa fa-lg fa-facebook"></a></li> {% endcomment %}
-                      <li><a href="https://twitter.com/PABL0REINA" class="fa fa-lg fa-twitter"></a></li>
-                      {% comment %} <li><a href="#" class="fa fa-lg fa-google-plus"></a></li> {% endcomment %}
-                      <li><a href="https://github.com/pablers/" class="fa fa-lg fa-github"></a></li>
-                      <li><a href="#" class="fa fa-lg fa-pinterest"></a></li>
-                      <li><a href="https://www.linkedin.com/in/pabloreinalopez/" class="fa fa-lg fa-linkedin"></a></li>
-                      {% comment %} <li><a href="#" class="fa fa-lg fa-instagram"></a></li> {% endcomment %}
-                      {% comment %} <li><a href="#" class="fa fa-lg fa-youtube"></a></li> {% endcomment %}
-                      </ul>
-                      </div>
+
+        <h2>Contacto</h2>
+          <div class="socialbtns">
+            <ul>
+            {% comment %} <li><a href="#" class="fa fa-lg fa-facebook"></a></li> {% endcomment %}
+            <li><a href="https://twitter.com/PABL0REINA" class="fa fa-lg fa-twitter"></a></li>
+            {% comment %} <li><a href="#" class="fa fa-lg fa-google-plus"></a></li> {% endcomment %}
+            <li><a href="https://github.com/pablers/" class="fa fa-lg fa-github"></a></li>
+            <li><a href="#" class="fa fa-lg fa-pinterest"></a></li>
+            <li><a href="https://www.linkedin.com/in/pabloreinalopez/" class="fa fa-lg fa-linkedin"></a></li>
+            {% comment %} <li><a href="#" class="fa fa-lg fa-instagram"></a></li> {% endcomment %}
+            {% comment %} <li><a href="#" class="fa fa-lg fa-youtube"></a></li> {% endcomment %}
+            </ul>
+          </div>
 
         <p>This page has been created by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Acknowledgement to <a href="https://github.com/orderedlist">orderedlist</a> for creating based theme</small></p>
-      
-             </footer>
+      </footer>
     </div>
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

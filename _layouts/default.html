@@ -19,10 +19,8 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-        {% comment %} {% if site.logo %}
-          <img src="{{ site.baseurl }}/logo.jpg" class="fit image">
-        {% endif %} {% endcomment %}
 
+        <h2><p>{{ site.name | default: site.github.owner_name }}</p></h2>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
@@ -49,6 +47,11 @@
         </ul>
         {% endif %}
       </header>
+
+      <nav>
+        <p>Testing</p>
+
+      </nav>
       <section>
 
       {{ content }}

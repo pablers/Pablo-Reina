@@ -118,14 +118,13 @@ nav {
 }
 
 ul.downloads {
-  list-style:none;
+  list-style:none ;
   height:40px;
   padding:0;
-  background: #96d4d686;
+  background: #383a3a8a;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  //width:270px;
-  width:450px;
+  width:200px;
 }
 
 .downloads li {
@@ -146,9 +145,9 @@ ul.downloads {
 .downloads a {
   line-height:1;
   font-size:18px;
-  padding: 10px 20px;
+  //padding: 10px 20px;
   color:#676767;
-  display:block;
+  display:inline-block;
   text-align:center;
   padding-top:1px;
   height:34px;
@@ -157,8 +156,8 @@ ul.downloads {
 
 .downloads a:hover, .downloads a:focus {
   background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
-	padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
-  color:#675C5C;
+	padding: 10px 300px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+  color:rgb(211, 210, 210);
   font-weight:bold;
 }
 

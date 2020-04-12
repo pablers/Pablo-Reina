@@ -280,18 +280,6 @@ footer {
 
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
-// .icon {
-//   color: #000;
-// 	text-decoration: none;
-// 	padding: 5px;
-// }
-
-// a .icon, .icon:hover {
-// 	color: #000;
-// 	text-decoration: none;
-// 	padding: 5px;
-// }
-
 .socialbtnsbtnsbtns, .socialbtnsbtnsbtns ul, .socialbtnsbtnsbtns li {
 	margin: 0;
 	padding: 5px;
@@ -370,11 +358,11 @@ footer {
   list-style: none;
   line-height: 1;
   display: block;
-  position: fixed;
+  position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  // float: left
+  float: left
 }
 #cssmenu {
   font-family: Roboto, sans-serif;

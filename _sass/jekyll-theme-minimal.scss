@@ -37,13 +37,11 @@ h3, h4, h5, h6 {
 a {
   color:#267CB9;
   text-decoration:none;
-  padding: 5px;
 }
 
 a:hover, a:focus {
   color:#069;
   font-weight: bold;
-  padding: 5px;
 }
 
 a small {
@@ -282,7 +280,13 @@ footer {
 
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
-// a, a:hover {
+// .icon {
+//   color: #000;
+// 	text-decoration: none;
+// 	padding: 5px;
+// }
+
+// a .icon, .icon:hover {
 // 	color: #000;
 // 	text-decoration: none;
 // 	padding: 5px;
@@ -324,7 +328,8 @@ footer {
 	transition: all ease-out 0.5s;
 	-moz-transition: all ease-out 0.5s;
 	-webkit-transition: all ease-out 0.5s;
-	-o-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  padding: 5px;
 }
 
 .socialbtns .fa:hover {
@@ -348,7 +353,8 @@ footer {
 	transition: all ease 0.5s;
 	-moz-transition: all ease-in 0.5s;
 	-webkit-transition: all ease-in 0.5s;
-	-o-transition: all ease-in 0.5s;
+  -o-transition: all ease-in 0.5s;
+  padding: 5px;
 }
 
 // CSS MENU

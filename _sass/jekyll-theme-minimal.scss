@@ -124,7 +124,8 @@ ul.downloads {
   background: #96d4d686;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:270px;
+  // width:270px;
+  width:450px
 }
 
 .downloads li {
@@ -166,7 +167,7 @@ strong {
   font-weight:700;
 }
 
-.downloads li + li + li {
+.downloads li + li + li +li + li{
   border-right:none;
   width:89px;
 }

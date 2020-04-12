@@ -14,10 +14,7 @@
   <body>
     <div class="wrapper">
       <header>
-        {% if site.home %}
-        <a href="{{ "/" | absolute_url}}"> Inicio </a>
-        {% endif %}
-
+        
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
@@ -28,13 +25,14 @@
          {% if site.show_menu %}
         <div id='cssmenu'>
         <ul>
-          <li><a href="{{ site.baseurl }}/portfolio.html "> Portfolio </a></li>
-          <li class='active has-sub'><a href='#'>Products</a>
+          <li><a href="{{ site.baseurl }} "> Inicio </a></li>
+          <li class='active has-sub'><a href='{{ site.baseurl }}/portfolio.html'>Portfolio</a>
             <ul>
-              <li class='has-sub'><a href='#'>Product 1</a>
+              <li class='has-sub'><a href='#'>Proyecto 1</a>
                 <ul>
-                  <li><a href='#'>Sub Product</a></li>
-                  <li><a href='#'>Sub Product</a></li>
+                  <li><a href='#'>Descripción</a></li>
+                  <li><a href='#'>Acceso GitHub</a></li>
+                </ul>
               </li>
             </ul>
          </li>

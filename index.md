@@ -2,122 +2,48 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+# First Steps
 
-There should be whitespace between paragraphs.
+- [x] **Default layout working**
+- [x] Wrote my first md function
+- [x] Tabla de contenidos añadida
+- [ ] Learn how to configure left side (_In progress_)
+- [ ] Design of front page
+- [ ] Section structure
+- [ ] Publish first project
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+---
 
-# Header 1
+## Realizando algunas pruebas
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+### Probando tabla de contenidos
+- [First Steps](#first-steps)
+  - [Realizando algunas pruebas](#realizando-algunas-pruebas)
+    - [Probando tabla de contenidos](#probando-tabla-de-contenidos)
+    - [Probando actualización de tabla de contenidos...](#probando-actualizaci%c3%b3n-de-tabla-de-contenidos)
+    - [Probando actualización manual de tabla de contenidos](#probando-actualizaci%c3%b3n-manual-de-tabla-de-contenidos)
+    - [Probando emojis](#probando-emojis)
+- [Inspiration quote](#inspiration-quote)
+- [Guía de referencia](#gu%c3%ada-de-referencia)
 
-## Header 2
+### Probando actualización de tabla de contenidos...
+~~No se actualiza automaticamente, hay que revisarla manualmente~~ 
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Se actualiza al utilizar ```Ctrl + S```
 
-### Header 3
+### Probando actualización manual de tabla de contenidos
+Actualización manual completada
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+### Probando emojis
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+:+1: , :camel: , :dancers: , :man: , :baby:
 
-#### Header 4
+---
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+# Inspiration quote
 
-##### Header 5
+> Sun rays do not burn untill brought to a focus.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+# Guía de referencia
+[Markdown guide](./md-guide.html).

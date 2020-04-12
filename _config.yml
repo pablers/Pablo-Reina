@@ -3,5 +3,6 @@ title: Pablo Reina
 description: Data Scientist and SW Developer
 logo: /assets/img/logo.png
 show_downloads: true
+is_user_page: true
 google_analytics: 
 theme: jekyll-theme-minimal

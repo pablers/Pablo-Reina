@@ -39,6 +39,8 @@ Actualización manual completada
 
 :+1: , :camel: , :dancers: , :man: , :baby:
 
+_existe algun problema con los emojis y github_
+
 ---
 
 # Inspiration quote

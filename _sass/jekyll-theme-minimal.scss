@@ -231,8 +231,13 @@ footer {
 
   header ul {
     position:absolute;
-    right:0px;
+    right:50px;
     top:52px;
+  }
+  
+  #cssmenu {
+    right:50px;
+  
   }
 }
 
@@ -263,11 +268,7 @@ footer {
     width:99%;
   }
 
-  #cssmenu {
-    width:99%;
-  }
-
-  .downloads li, .downloads li + li + li {
+    .downloads li, .downloads li + li + li {
     width:33%;
   }
 }

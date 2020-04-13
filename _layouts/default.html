@@ -24,7 +24,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p> 
         {% endcomment %}
 
-         {% if site.show_menu %}
+         {% comment %} {% if site.show_menu %}
         <p><div id='cssmenu'>
         <ul>
           <li><a href="{{ site.baseurl }} "> Inicio </a></li>
@@ -45,8 +45,19 @@
         </ul>
         </div>
         </p>
-        {% endif %}
-        Prueba de texto
+        {% endif %} {% endcomment %}
+        
+
+    <div class="nav">
+      <ul>
+        <li class="home"><a href="#">Home</a></li>
+        <li class="tutorials"><a class="active" href="#">Tutorials</a></li>
+        <li class="about"><a href="#">About</a></li>
+        <li class="news"><a href="#">Newsletter</a></li>
+        <li class="contact"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
       </header>
       <section>
 

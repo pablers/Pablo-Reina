@@ -15,16 +15,16 @@
     <div class="wrapper">
       <header>
         
-        {% if site.logo %}
+        {% comment %} {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %} {% endcomment %}
 
-       
+        {% comment %} 
         <h2><p><p>{{ site.name | default: site.github.owner_name }}</p></p></h2>
         <p>{{ site.description | default: site.github.project_tagline }}</p> 
-        
+        {% endcomment %}
 
-        {% comment %} {% if site.show_menu %}
+         {% comment %} {% if site.show_menu %}
         <p><div id='cssmenu'>
         <ul>
           <li><a href="{{ site.baseurl }} "> Inicio </a></li>

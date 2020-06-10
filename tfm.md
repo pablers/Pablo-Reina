@@ -1,6 +1,6 @@
 # Primeros pasos
 
-!! Utilizar esta aplicación para guiarme en el proceso del TFM
+``` Utilizar esta aplicación para guiarme en el proceso del TFM ```
 
 ## 1. Decidir que problema voy a resolver
 

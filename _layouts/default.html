@@ -15,7 +15,8 @@
     <![endif]-->
   </head>
   <body>
-    <header>
+    <div class="wrapper">
+      <header>
           
         
         {% if site.logo %}
@@ -24,10 +25,10 @@
        
         <h2><p><p>{{ site.name | default: site.github.owner_name }}</p></p></h2>
         <p>{{ site.description | default: site.github.project_tagline }}</p> 
-        
+        {% endif %}
 
         {% if site.show_menu %}
-        <p><div><h3>
+        <p><div id="cssmenu">
         <ul>
           <li><a href="{{ site.baseurl }} "> Inicio </a></li>
           <li class='active has-sub'><a href='#'>Portfolio</a>
@@ -45,20 +46,31 @@
           <li><a href="{{ site.baseurl }}/md-guide.html "> Markdown guide </a></li>
           <li><a href="{{ site.baseurl }}/another-page.html "> Another page </a></li>
         </ul>
-        </div></h3>
+        </div>
+        {% endif %}
         </p>  
 
 
-    </header>
-    <section>
+        {% if {{ site.baseurl }} %}
+        <div class="nav">
+          <ul>
+            <li class="home"><a class="active" href="{{ site.baseurl }}">Inicio</a></li>
+            <li class="tutorials"><a href="{{ site.baseurl }}/portfolio.html">Portfolio</a></li>
+            <li class="about"><a href="#">About</a></li>
+            <li class="news"><a href="#">Newsletter</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
+          </ul>
+          {% endif %}
+        </div>
 
-      {{ content }}
-      
-    </section>
+      </header>
+      <section>
+
+        {{ content }}
+        
+      </section>
     <footer>
-          
-
-        <h2>Contacto</h2>
+      <h2>Contacto</h2>
           <div class="socialbtns">
             <ul>
             {% comment %} <li><a href="#" class="fa fa-lg fa-facebook"></a></li> {% endcomment %}
@@ -84,6 +96,6 @@
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
     </script>
-
+    {% endif %}
   </body>
 </html>

@@ -21,11 +21,11 @@
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
 
-       
         <h2><p><p>{{ site.name | default: site.github.owner_name }}</p></p></h2>
         <p>{{ site.description | default: site.github.project_tagline }}</p> 
-        {% endif %}
+      
 
         {% if site.show_menu %}
         <p><div id="cssmenu">
@@ -51,7 +51,7 @@
         </p>  
 
 
-        {% if {{ site.baseurl }} %}
+        {% comment %} {% if {{ site.baseurl }} %}
         <div class="nav">
           <ul>
             <li class="home"><a class="active" href="{{ site.baseurl }}">Inicio</a></li>
@@ -60,8 +60,8 @@
             <li class="news"><a href="#">Newsletter</a></li>
             <li class="contact"><a href="#">Contact</a></li>
           </ul>
-          {% endif %}
-        </div>
+        {% endif %}
+        </div> {% endcomment %}
 
       </header>
       <section>

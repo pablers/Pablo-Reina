@@ -48,7 +48,7 @@
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+        {% comment %} {% endif %} {% endcomment %}
 
        
         <h2><p><p>{{ site.name | default: site.github.owner_name }}</p></p></h2>
